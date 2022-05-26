@@ -1,3 +1,7 @@
+
+
+<img src=https://user-images.githubusercontent.com/58718316/170446612-f1488db0-9d5e-4b87-952a-cd497314295b.jpg>
+
 # Flux-Chat-Bot
 
 # What Is A Chatbot?
@@ -82,6 +86,8 @@ Let us try to make a chatbot from scratch using the chatterbot library in python
 ChatterBot Library In Python
 ChatterBot is a library in python which generates responses to user input. It uses a number of machine learning algorithms to produce a variety of responses. It becomes easier for the users to make chatbots using the ChatterBot library with more accurate responses.
 
+
+<img src=https://user-images.githubusercontent.com/58718316/170446879-b13e484e-12da-4fb5-aeb8-d8219d8680e2.png>
 
 
 # Language Independence
