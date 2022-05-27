@@ -1,0 +1,394 @@
+pip install chatterbot==1.0.4
+
+Microsoft Windows [Version 10.0.18363.959]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\ADITYA DAS>pip install chatterbot
+Collecting chatterbot
+  Using cached ChatterBot-1.0.5-py2.py3-none-any.whl (67 kB)
+Collecting pyyaml<5.2,>=5.1
+  Using cached PyYAML-5.1.2-cp37-cp37m-win32.whl (195 kB)
+Requirement already satisfied: pytz in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from chatterbot) (2019.3)
+Collecting pint>=0.8.1
+  Using cached Pint-0.14-py2.py3-none-any.whl (197 kB)
+Collecting python-dateutil<2.8,>=2.7
+  Using cached python_dateutil-2.7.5-py2.py3-none-any.whl (225 kB)
+Collecting spacy<2.2,>=2.1
+  Using cached spacy-2.1.9.tar.gz (30.7 MB)
+  Installing build dependencies ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0'
+       cwd: None
+  Complete output (58 lines):
+  Collecting setuptools
+    Using cached setuptools-49.2.0-py3-none-any.whl (789 kB)
+  Collecting wheel<0.33.0,>0.32.0
+    Using cached wheel-0.32.3-py2.py3-none-any.whl (21 kB)
+  Collecting Cython
+    Using cached Cython-0.29.21-cp37-cp37m-win32.whl (1.5 MB)
+  Collecting cymem<2.1.0,>=2.0.2
+    Using cached cymem-2.0.3.tar.gz (51 kB)
+  Collecting preshed<2.1.0,>=2.0.1
+    Using cached preshed-2.0.1-cp37-cp37m-win32.whl (64 kB)
+  Collecting murmurhash<1.1.0,>=0.28.0
+    Using cached murmurhash-1.0.2.tar.gz (35 kB)
+  Collecting thinc<7.1.0,>=7.0.8
+    Using cached thinc-7.0.8.tar.gz (1.9 MB)
+  Collecting blis<0.3.0,>=0.2.1
+    Using cached blis-0.2.4.tar.gz (1.5 MB)
+  Collecting wasabi<1.1.0,>=0.0.9
+    Using cached wasabi-0.7.1.tar.gz (22 kB)
+  Collecting srsly<1.1.0,>=0.0.6
+    Using cached srsly-1.0.2.tar.gz (192 kB)
+  Collecting numpy>=1.7.0
+    Downloading numpy-1.19.1-cp37-cp37m-win32.whl (10.9 MB)
+  Collecting plac<1.0.0,>=0.9.6
+    Using cached plac-0.9.6-py2.py3-none-any.whl (20 kB)
+  Collecting tqdm<5.0.0,>=4.10.0
+    Using cached tqdm-4.48.0-py2.py3-none-any.whl (67 kB)
+  Using legacy setup.py install for cymem, since package 'wheel' is not installed.
+  Using legacy setup.py install for murmurhash, since package 'wheel' is not installed.
+  Using legacy setup.py install for thinc, since package 'wheel' is not installed.
+  Using legacy setup.py install for blis, since package 'wheel' is not installed.
+  Using legacy setup.py install for wasabi, since package 'wheel' is not installed.
+  Using legacy setup.py install for srsly, since package 'wheel' is not installed.
+  Installing collected packages: setuptools, wheel, Cython, cymem, preshed, murmurhash, numpy, blis, wasabi, srsly, plac, tqdm, thinc
+      Running setup.py install for cymem: started
+      Running setup.py install for cymem: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tyts9i6d\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay\Include\cymem'
+           cwd: C:\Users\ADITYA~1\AppData\Local\Temp\pip-install-g8yqnz3b\cymem\
+      Complete output (17 lines):
+      running install
+      running build
+      running build_py
+      creating build
+      creating build\lib.win32-3.7
+      creating build\lib.win32-3.7\cymem
+      copying cymem\about.py -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.py -> build\lib.win32-3.7\cymem
+      package init file 'cymem\tests\__init__.py' not found (or not a regular file)
+      creating build\lib.win32-3.7\cymem\tests
+      copying cymem\tests\test_import.py -> build\lib.win32-3.7\cymem\tests
+      copying cymem\cymem.pyx -> build\lib.win32-3.7\cymem
+      copying cymem\cymem.pxd -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.pxd -> build\lib.win32-3.7\cymem
+      running build_ext
+      building 'cymem.cymem' extension
+      error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tyts9i6d\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay\Include\cymem' Check the logs for full command output.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0' Check the logs for full command output.
+
+C:\Users\ADITYA DAS>cd C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32
+
+C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32>pip install chatterbot
+Collecting chatterbot
+  Using cached ChatterBot-1.0.5-py2.py3-none-any.whl (67 kB)
+Collecting sqlalchemy<1.3,>=1.2
+  Using cached SQLAlchemy-1.2.19.tar.gz (5.7 MB)
+Collecting pint>=0.8.1
+  Using cached Pint-0.14-py2.py3-none-any.whl (197 kB)
+Requirement already satisfied: pytz in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from chatterbot) (2019.3)
+Collecting pymongo<4.0,>=3.3
+  Downloading pymongo-3.10.1-cp37-cp37m-win32.whl (348 kB)
+     |████████████████████████████████| 348 kB 93 kB/s
+Collecting mathparse<0.2,>=0.1
+  Downloading mathparse-0.1.2-py3-none-any.whl (7.2 kB)
+Collecting pyyaml<5.2,>=5.1
+  Using cached PyYAML-5.1.2-cp37-cp37m-win32.whl (195 kB)
+Collecting nltk<4.0,>=3.2
+  Downloading nltk-3.5.zip (1.4 MB)
+     |████████████████████████████████| 1.4 MB 939 kB/s
+Collecting spacy<2.2,>=2.1
+  Using cached spacy-2.1.9.tar.gz (30.7 MB)
+  Installing build dependencies ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0'
+       cwd: None
+  Complete output (58 lines):
+  Collecting setuptools
+    Using cached setuptools-49.2.0-py3-none-any.whl (789 kB)
+  Collecting wheel<0.33.0,>0.32.0
+    Using cached wheel-0.32.3-py2.py3-none-any.whl (21 kB)
+  Collecting Cython
+    Using cached Cython-0.29.21-cp37-cp37m-win32.whl (1.5 MB)
+  Collecting cymem<2.1.0,>=2.0.2
+    Using cached cymem-2.0.3.tar.gz (51 kB)
+  Collecting preshed<2.1.0,>=2.0.1
+    Using cached preshed-2.0.1-cp37-cp37m-win32.whl (64 kB)
+  Collecting murmurhash<1.1.0,>=0.28.0
+    Using cached murmurhash-1.0.2.tar.gz (35 kB)
+  Collecting thinc<7.1.0,>=7.0.8
+    Using cached thinc-7.0.8.tar.gz (1.9 MB)
+  Collecting blis<0.3.0,>=0.2.1
+    Using cached blis-0.2.4.tar.gz (1.5 MB)
+  Collecting wasabi<1.1.0,>=0.0.9
+    Using cached wasabi-0.7.1.tar.gz (22 kB)
+  Collecting srsly<1.1.0,>=0.0.6
+    Using cached srsly-1.0.2.tar.gz (192 kB)
+  Collecting numpy>=1.7.0
+    Using cached numpy-1.19.1-cp37-cp37m-win32.whl (10.9 MB)
+  Collecting plac<1.0.0,>=0.9.6
+    Using cached plac-0.9.6-py2.py3-none-any.whl (20 kB)
+  Collecting tqdm<5.0.0,>=4.10.0
+    Using cached tqdm-4.48.0-py2.py3-none-any.whl (67 kB)
+  Using legacy setup.py install for cymem, since package 'wheel' is not installed.
+  Using legacy setup.py install for murmurhash, since package 'wheel' is not installed.
+  Using legacy setup.py install for thinc, since package 'wheel' is not installed.
+  Using legacy setup.py install for blis, since package 'wheel' is not installed.
+  Using legacy setup.py install for wasabi, since package 'wheel' is not installed.
+  Using legacy setup.py install for srsly, since package 'wheel' is not installed.
+  Installing collected packages: setuptools, wheel, Cython, cymem, preshed, murmurhash, numpy, blis, wasabi, srsly, plac, tqdm, thinc
+      Running setup.py install for cymem: started
+      Running setup.py install for cymem: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tgguqrnr\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay\Include\cymem'
+           cwd: C:\Users\ADITYA~1\AppData\Local\Temp\pip-install-td8dxz3r\cymem\
+      Complete output (17 lines):
+      running install
+      running build
+      running build_py
+      creating build
+      creating build\lib.win32-3.7
+      creating build\lib.win32-3.7\cymem
+      copying cymem\about.py -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.py -> build\lib.win32-3.7\cymem
+      package init file 'cymem\tests\__init__.py' not found (or not a regular file)
+      creating build\lib.win32-3.7\cymem\tests
+      copying cymem\tests\test_import.py -> build\lib.win32-3.7\cymem\tests
+      copying cymem\cymem.pyx -> build\lib.win32-3.7\cymem
+      copying cymem\cymem.pxd -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.pxd -> build\lib.win32-3.7\cymem
+      running build_ext
+      building 'cymem.cymem' extension
+      error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tgguqrnr\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay\Include\cymem' Check the logs for full command output.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0' Check the logs for full command output.
+
+C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32>pip install chatterbot==1.0.4
+
+
+
+Microsoft Windows [Version 10.0.18363.959]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\ADITYA DAS>pip install chatterbot
+Collecting chatterbot
+  Using cached ChatterBot-1.0.5-py2.py3-none-any.whl (67 kB)
+Collecting pyyaml<5.2,>=5.1
+  Using cached PyYAML-5.1.2-cp37-cp37m-win32.whl (195 kB)
+Requirement already satisfied: pytz in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from chatterbot) (2019.3)
+Collecting pint>=0.8.1
+  Using cached Pint-0.14-py2.py3-none-any.whl (197 kB)
+Collecting python-dateutil<2.8,>=2.7
+  Using cached python_dateutil-2.7.5-py2.py3-none-any.whl (225 kB)
+Collecting spacy<2.2,>=2.1
+  Using cached spacy-2.1.9.tar.gz (30.7 MB)
+  Installing build dependencies ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0'
+       cwd: None
+  Complete output (58 lines):
+  Collecting setuptools
+    Using cached setuptools-49.2.0-py3-none-any.whl (789 kB)
+  Collecting wheel<0.33.0,>0.32.0
+    Using cached wheel-0.32.3-py2.py3-none-any.whl (21 kB)
+  Collecting Cython
+    Using cached Cython-0.29.21-cp37-cp37m-win32.whl (1.5 MB)
+  Collecting cymem<2.1.0,>=2.0.2
+    Using cached cymem-2.0.3.tar.gz (51 kB)
+  Collecting preshed<2.1.0,>=2.0.1
+    Using cached preshed-2.0.1-cp37-cp37m-win32.whl (64 kB)
+  Collecting murmurhash<1.1.0,>=0.28.0
+    Using cached murmurhash-1.0.2.tar.gz (35 kB)
+  Collecting thinc<7.1.0,>=7.0.8
+    Using cached thinc-7.0.8.tar.gz (1.9 MB)
+  Collecting blis<0.3.0,>=0.2.1
+    Using cached blis-0.2.4.tar.gz (1.5 MB)
+  Collecting wasabi<1.1.0,>=0.0.9
+    Using cached wasabi-0.7.1.tar.gz (22 kB)
+  Collecting srsly<1.1.0,>=0.0.6
+    Using cached srsly-1.0.2.tar.gz (192 kB)
+  Collecting numpy>=1.7.0
+    Downloading numpy-1.19.1-cp37-cp37m-win32.whl (10.9 MB)
+  Collecting plac<1.0.0,>=0.9.6
+    Using cached plac-0.9.6-py2.py3-none-any.whl (20 kB)
+  Collecting tqdm<5.0.0,>=4.10.0
+    Using cached tqdm-4.48.0-py2.py3-none-any.whl (67 kB)
+  Using legacy setup.py install for cymem, since package 'wheel' is not installed.
+  Using legacy setup.py install for murmurhash, since package 'wheel' is not installed.
+  Using legacy setup.py install for thinc, since package 'wheel' is not installed.
+  Using legacy setup.py install for blis, since package 'wheel' is not installed.
+  Using legacy setup.py install for wasabi, since package 'wheel' is not installed.
+  Using legacy setup.py install for srsly, since package 'wheel' is not installed.
+  Installing collected packages: setuptools, wheel, Cython, cymem, preshed, murmurhash, numpy, blis, wasabi, srsly, plac, tqdm, thinc
+      Running setup.py install for cymem: started
+      Running setup.py install for cymem: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tyts9i6d\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay\Include\cymem'
+           cwd: C:\Users\ADITYA~1\AppData\Local\Temp\pip-install-g8yqnz3b\cymem\
+      Complete output (17 lines):
+      running install
+      running build
+      running build_py
+      creating build
+      creating build\lib.win32-3.7
+      creating build\lib.win32-3.7\cymem
+      copying cymem\about.py -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.py -> build\lib.win32-3.7\cymem
+      package init file 'cymem\tests\__init__.py' not found (or not a regular file)
+      creating build\lib.win32-3.7\cymem\tests
+      copying cymem\tests\test_import.py -> build\lib.win32-3.7\cymem\tests
+      copying cymem\cymem.pyx -> build\lib.win32-3.7\cymem
+      copying cymem\cymem.pxd -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.pxd -> build\lib.win32-3.7\cymem
+      running build_ext
+      building 'cymem.cymem' extension
+      error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-g8yqnz3b\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tyts9i6d\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay\Include\cymem' Check the logs for full command output.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-61v8t52e\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0' Check the logs for full command output.
+
+C:\Users\ADITYA DAS>cd C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32
+
+C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32>pip install chatterbot
+Collecting chatterbot
+  Using cached ChatterBot-1.0.5-py2.py3-none-any.whl (67 kB)
+Collecting sqlalchemy<1.3,>=1.2
+  Using cached SQLAlchemy-1.2.19.tar.gz (5.7 MB)
+Collecting pint>=0.8.1
+  Using cached Pint-0.14-py2.py3-none-any.whl (197 kB)
+Requirement already satisfied: pytz in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from chatterbot) (2019.3)
+Collecting pymongo<4.0,>=3.3
+  Downloading pymongo-3.10.1-cp37-cp37m-win32.whl (348 kB)
+     |████████████████████████████████| 348 kB 93 kB/s
+Collecting mathparse<0.2,>=0.1
+  Downloading mathparse-0.1.2-py3-none-any.whl (7.2 kB)
+Collecting pyyaml<5.2,>=5.1
+  Using cached PyYAML-5.1.2-cp37-cp37m-win32.whl (195 kB)
+Collecting nltk<4.0,>=3.2
+  Downloading nltk-3.5.zip (1.4 MB)
+     |████████████████████████████████| 1.4 MB 939 kB/s
+Collecting spacy<2.2,>=2.1
+  Using cached spacy-2.1.9.tar.gz (30.7 MB)
+  Installing build dependencies ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0'
+       cwd: None
+  Complete output (58 lines):
+  Collecting setuptools
+    Using cached setuptools-49.2.0-py3-none-any.whl (789 kB)
+  Collecting wheel<0.33.0,>0.32.0
+    Using cached wheel-0.32.3-py2.py3-none-any.whl (21 kB)
+  Collecting Cython
+    Using cached Cython-0.29.21-cp37-cp37m-win32.whl (1.5 MB)
+  Collecting cymem<2.1.0,>=2.0.2
+    Using cached cymem-2.0.3.tar.gz (51 kB)
+  Collecting preshed<2.1.0,>=2.0.1
+    Using cached preshed-2.0.1-cp37-cp37m-win32.whl (64 kB)
+  Collecting murmurhash<1.1.0,>=0.28.0
+    Using cached murmurhash-1.0.2.tar.gz (35 kB)
+  Collecting thinc<7.1.0,>=7.0.8
+    Using cached thinc-7.0.8.tar.gz (1.9 MB)
+  Collecting blis<0.3.0,>=0.2.1
+    Using cached blis-0.2.4.tar.gz (1.5 MB)
+  Collecting wasabi<1.1.0,>=0.0.9
+    Using cached wasabi-0.7.1.tar.gz (22 kB)
+  Collecting srsly<1.1.0,>=0.0.6
+    Using cached srsly-1.0.2.tar.gz (192 kB)
+  Collecting numpy>=1.7.0
+    Using cached numpy-1.19.1-cp37-cp37m-win32.whl (10.9 MB)
+  Collecting plac<1.0.0,>=0.9.6
+    Using cached plac-0.9.6-py2.py3-none-any.whl (20 kB)
+  Collecting tqdm<5.0.0,>=4.10.0
+    Using cached tqdm-4.48.0-py2.py3-none-any.whl (67 kB)
+  Using legacy setup.py install for cymem, since package 'wheel' is not installed.
+  Using legacy setup.py install for murmurhash, since package 'wheel' is not installed.
+  Using legacy setup.py install for thinc, since package 'wheel' is not installed.
+  Using legacy setup.py install for blis, since package 'wheel' is not installed.
+  Using legacy setup.py install for wasabi, since package 'wheel' is not installed.
+  Using legacy setup.py install for srsly, since package 'wheel' is not installed.
+  Installing collected packages: setuptools, wheel, Cython, cymem, preshed, murmurhash, numpy, blis, wasabi, srsly, plac, tqdm, thinc
+      Running setup.py install for cymem: started
+      Running setup.py install for cymem: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tgguqrnr\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay\Include\cymem'
+           cwd: C:\Users\ADITYA~1\AppData\Local\Temp\pip-install-td8dxz3r\cymem\
+      Complete output (17 lines):
+      running install
+      running build
+      running build_py
+      creating build
+      creating build\lib.win32-3.7
+      creating build\lib.win32-3.7\cymem
+      copying cymem\about.py -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.py -> build\lib.win32-3.7\cymem
+      package init file 'cymem\tests\__init__.py' not found (or not a regular file)
+      creating build\lib.win32-3.7\cymem\tests
+      copying cymem\tests\test_import.py -> build\lib.win32-3.7\cymem\tests
+      copying cymem\cymem.pyx -> build\lib.win32-3.7\cymem
+      copying cymem\cymem.pxd -> build\lib.win32-3.7\cymem
+      copying cymem\__init__.pxd -> build\lib.win32-3.7\cymem
+      running build_ext
+      building 'cymem.cymem' extension
+      error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"'; __file__='"'"'C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\pip-install-td8dxz3r\\cymem\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-record-tgguqrnr\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --compile --install-headers 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay\Include\cymem' Check the logs for full command output.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\aditya das\appdata\local\programs\python\python37-32\python.exe' 'c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages\pip' install --ignore-installed --no-user --prefix 'C:\Users\ADITYA~1\AppData\Local\Temp\pip-build-env-r1whj4s7\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools 'wheel>0.32.0,<0.33.0' Cython 'cymem>=2.0.2,<2.1.0' 'preshed>=2.0.1,<2.1.0' 'murmurhash>=0.28.0,<1.1.0' 'thinc>=7.0.8,<7.1.0' Check the logs for full command output.
+
+C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32>pip install chatterbot==1.0.4
+Collecting chatterbot==1.0.4
+  Downloading ChatterBot-1.0.4-py2.py3-none-any.whl (66 kB)
+     |████████████████████████████████| 66 kB 33 kB/s
+Collecting mathparse<0.2,>=0.1
+  Using cached mathparse-0.1.2-py3-none-any.whl (7.2 kB)
+Collecting python-dateutil<2.8,>=2.7
+  Using cached python_dateutil-2.7.5-py2.py3-none-any.whl (225 kB)
+Collecting sqlalchemy<1.3,>=1.2
+  Using cached SQLAlchemy-1.2.19.tar.gz (5.7 MB)
+Collecting pymongo<4.0,>=3.3
+  Using cached pymongo-3.10.1-cp37-cp37m-win32.whl (348 kB)
+Collecting pint>=0.8.1
+  Using cached Pint-0.14-py2.py3-none-any.whl (197 kB)
+Collecting nltk<4.0,>=3.2
+  Using cached nltk-3.5.zip (1.4 MB)
+Collecting chatterbot-corpus<1.3,>=1.2
+  Downloading chatterbot_corpus-1.2.0-py2.py3-none-any.whl (117 kB)
+     |████████████████████████████████| 117 kB 75 kB/s
+Requirement already satisfied: six>=1.5 in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from python-dateutil<2.8,>=2.7->chatterbot==1.0.4) (1.14.0)
+Collecting packaging
+  Downloading packaging-20.4-py2.py3-none-any.whl (37 kB)
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from pint>=0.8.1->chatterbot==1.0.4) (1.5.0)
+Requirement already satisfied: setuptools in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from pint>=0.8.1->chatterbot==1.0.4) (40.8.0)
+Requirement already satisfied: click in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from nltk<4.0,>=3.2->chatterbot==1.0.4) (7.0)
+Requirement already satisfied: joblib in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from nltk<4.0,>=3.2->chatterbot==1.0.4) (0.14.1)
+Collecting regex
+  Downloading regex-2020.7.14-cp37-cp37m-win32.whl (252 kB)
+     |████████████████████████████████| 252 kB 145 kB/s
+Collecting tqdm
+  Using cached tqdm-4.48.0-py2.py3-none-any.whl (67 kB)
+Collecting PyYAML<4.0,>=3.12
+  Downloading PyYAML-3.13-cp37-cp37m-win32.whl (188 kB)
+     |████████████████████████████████| 188 kB 344 kB/s
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from packaging->pint>=0.8.1->chatterbot==1.0.4) (2.4.6)
+Requirement already satisfied: zipp>=0.5 in c:\users\aditya das\appdata\local\programs\python\python37-32\lib\site-packages (from importlib-metadata; python_version < "3.8"->pint>=0.8.1->chatterbot==1.0.4) (2.1.0)
+Using legacy setup.py install for sqlalchemy, since package 'wheel' is not installed.
+Using legacy setup.py install for nltk, since package 'wheel' is not installed.
+Installing collected packages: mathparse, python-dateutil, sqlalchemy, pymongo, packaging, pint, regex, tqdm, nltk, PyYAML, chatterbot-corpus, chatterbot
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.1
+    Uninstalling python-dateutil-2.8.1:
+      Successfully uninstalled python-dateutil-2.8.1
+    Running setup.py install for sqlalchemy ... done
+    Running setup.py install for nltk ... done
+Successfully installed PyYAML-3.13 chatterbot-1.0.4 chatterbot-corpus-1.2.0 mathparse-0.1.2 nltk-3.5 packaging-20.4 pint-0.14 pymongo-3.10.1 python-dateutil-2.7.5 regex-2020.7.14 sqlalchemy-1.2.19 tqdm-4.48.0
+
+C:\Users\ADITYA DAS\AppData\Local\Programs\Python\Python37-32>
+
+
